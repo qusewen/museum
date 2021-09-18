@@ -1,0 +1,68 @@
+
+html{
+    scroll-behavior: smooth;
+}
+h1, h2{
+    font-family: 'Forum', cursive;
+}
+header{
+    height: 150px;
+    background-color: black;
+  
+    background-repeat: no-repeat;
+    background-position: center left 190px;
+    padding-top: 62px;
+
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    border: 1px solid red;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 55px;
+}
+.logo{
+    background-image: url("/museum/museum/assets/img/Frame.png");
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 25px;
+
+}
+a{
+
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+.welcome{
+    padding: 75px 0;
+}
