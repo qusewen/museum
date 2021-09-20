@@ -20,7 +20,7 @@ header{
 .container{
     margin: 0 auto;
     width: 1440px;
-    border: 1px solid red;
+
 
 }
 nav{
@@ -67,16 +67,20 @@ a{
 
 
 
+main {
+    background-color: black;
 
+}
 
 .welcome{
     height: 810px;
-    background: black;
     display: flex;
 }
 .text{
     margin-top: 150px;
     position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 .text h2{
     font-family: Forum;
@@ -85,7 +89,6 @@ a{
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 593px;
 }
 .text span{
     font-family: Roboto;
@@ -94,14 +97,122 @@ a{
     line-height: 33px;
     letter-spacing: 2px;
     color: #FFFFFF;
+    margin-top: 25px;
 }
 .photo{
     height: 750px;
-    margin-left: 440px;
+    margin-left: 427px;
 }
 .monoliza{
     padding-top: 0px;
     position: relative;
 
+}
+button{
+    width: 360px;
+    height: 75px;
+    background-color: #710707;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+.slid{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    background-color: black;
+    width: 600px;
+    height: 120px;
+    float: right;
+    justify-content: flex-end;
+    margin-top: 690px;
+    margin-left: 840px;
+
+}
+.slid img{
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+
+
+    
+}
+
+.slid span{
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-right: 55px;
+}
+.arrow{
+margin-right: 20px;
+margin-left:60px ;
+}
+
+.virtual-tour{
+    margin-top: 5px;
+width: 1440px;
+height: 1116px;
+background-color: white;
+position: absolute;
+}
+.wrapper{
+    padding-top: 75px;
+}
+.wrapper h2{
+
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+li h3{
+    font-family: Forum;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+li span{
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 10px;
+
+}
+.gall li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-bottom: 75px;
+}
+.virtual-tour .img{
+    width: 440px;
+}
+
+.gallery{
+    display: flex;
+}
+.gall{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line{
+    width: 300px;
 }
 
