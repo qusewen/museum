@@ -15,7 +15,9 @@ header{
     background-repeat: no-repeat;
     padding-top: 62px;
 }
-
+main{
+    height: auto;
+}
 
 .container{
     margin: 0 auto;
@@ -65,16 +67,19 @@ a{
 
 }
 
-
-
-main {
+.black{
     background-color: black;
-
+}
+.white{
+    background-color: #FFFFFF;
 }
 
+
 .welcome{
+
     height: 810px;
     display: flex;
+
 }
 .text{
     margin-top: 150px;
@@ -152,17 +157,17 @@ button{
     margin-right: 55px;
 }
 .arrow{
-margin-right: 20px;
-margin-left:60px ;
+    margin-right: 20px;
+    margin-left:60px ;
 }
 
 .virtual-tour{
     margin-top: 5px;
-width: 1440px;
-height: 1116px;
-background-color: white;
-position: absolute;
-}
+    width: 1440px;
+    height: 1116px;
+    background-color: white;
+    position: absolute;
+    }
 .wrapper{
     padding-top: 75px;
 }
@@ -216,3 +221,79 @@ li span{
     width: 300px;
 }
 
+
+.picture-explore{
+    height: 865px;
+    margin-top: 1266px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture-exp h2{
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.picture-exp img{
+    width: 660px;
+}
+.picture-exp p{
+    width: 660px;
+    margin-top: 75px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.picture-exp span{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #CAAA7D;
+}
+.pictures2{
+    padding-top: 90px;
+    width: 720px;
+    height: 700px;
+}
+.video-text{
+    display: flex;
+    padding-top: 75px;
+}
+.video-text h2{
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+.video-text p{
+    margin-left: 189px;
+    width: 625px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.video{
+    margin-top: 75px;
+}
+.other-video{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.slider{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    padding-right: 20px;
+    margin-bottom: 75px;
+}
