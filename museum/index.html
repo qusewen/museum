@@ -54,7 +54,7 @@
                             <div class="text">
                                 <h2>Welcome <br/> to the Louvre</h2>
                                 <span>From the castle to the museum</span>
-                                <button>Discover the Louvre</button>
+                                <a class="button" href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736">Discover the Louvre</a>
                             </div>
                             <div class="slid">
                                 <span>
@@ -180,8 +180,88 @@
                     </div>
                 </section>
             </div>
-            <section class="art-gallery" id="gallery"></section>
-            <section class="buy-tickets" id="Tickets"></section>
+            <div class="black">
+                <section class="art-gallery" id="gallery">
+                    <div class="container">
+                        <div class="art-text">
+                            <h2>Art Gallery</h2>
+                        </div>
+                        <div class="art">
+                            <div class="left-photo">
+                                <img src="/museum/museum/assets/img/leftart1.png" alt="art1">
+                                <img src="/museum/museum/assets/img/leftart2.png" alt="art2">
+                                <img src="/museum/museum/assets/img/leftart3.png" alt="art3">
+                                <img src="/museum/museum/assets/img/leftart4.png" alt="art4">
+                            </div>
+                            <div class="center-photo">
+                                <img src="/museum/museum/assets/img/centerart1.png" alt="art5">
+                                <img src="/museum/museum/assets/img/centerart2.png" alt="art6">
+                                <img src="/museum/museum/assets/img/centerart3.png" alt="art7">
+                                <img src="/museum/museum/assets/img/centerart4.png" alt="art8">
+                            </div>
+                            <div class="right-photo">
+                                <img src="/museum/museum/assets/img/rigthart1.png" alt="art9">
+                                <img src="/museum/museum/assets/img/rightart2.png" alt="art10">
+                                <img src="/museum/museum/assets/img/rigthart3.png" alt="art11">
+                                <img src="/museum/museum/assets/img/rightart4.png" alt="art12">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="white">
+                <section class="buy-tickets" id="Tickets">
+                    <div class="container">
+                        
+                            <div class="ticket-text">
+                                <h2>BUY TICKETS</h2>
+                                <img src="/museum/museum/assets/img/linegal.png" alt="line">
+                            </div>
+                            
+                            <div class="tickets">
+                                <div class="photo-ticket">
+                                    <img src="/museum/museum/assets/img/ticket.png" alt="ticket">
+                                </div>
+                                <div class="tickets-input">
+                                    <p>Ticket Type</p>
+                                    <input type="radio" name="tickets" value="Permanent exhibition"> <span>Permanent exhibition </span><br>
+                                    <input type="radio" name="tickets" value="Temporary exhibition"><span>Temporary exhibition</span><br>
+                                    <input type="radio" name="tickets" value="Combined Admission"><span>Combined Admission</spa> <br>
+                                </div>
+                                <div class="bye-menu">
+                                    <div class="amount">
+                                        <h3>Amount</h3>
+                                        <p class="age">Basic 18+</p>
+                                            <div class="border">
+                                                <button type="button" class="age-select-btn"
+                                                    onclick=" this.nextElementSibling.stepDown()">&ndash;</button>
+                                                <input type="number" min="1" max="100" value="1" readonly class="number">
+                                                <button type="button" class="age-select-btn"
+                                                    onclick="this.previousElementSibling.stepUp()">+</button>
+                                            </div>
+            
+                                            <p class="age">Senior 65+</p>
+                                            <div class="border">
+                                                <button type="button" class="age-select-btn"
+                                                    onclick=" this.nextElementSibling.stepDown()">&ndash;</button>
+                                                <input type="number" min="1" max="100" value="1" readonly class="number">
+                                                <button type="button" class="age-select-btn"
+                                                    onclick="this.previousElementSibling.stepUp()">+</button>
+                                            </div>
+                                        </div>
+            
+                                        <div class="bye">
+                                            <p class="total">Total € <span class="total-amount">220</span></p>
+                                            <button class="amount-btn">Buy Now</button>
+                                        </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        
+    
+                </section>
+            </div>
             <section class="contacts" id="contacts"></section>
     </main>
     <footer class="footer">
