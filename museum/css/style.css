@@ -462,3 +462,126 @@ li span{
     cursor: pointer;
     width: 175px;
     height: 50px;
+}
+
+
+.content img{
+    height: 400px;
+    padding-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacts{
+    height: 888px;
+}
+.contact-text{
+    padding-top: 75px;
+}
+.contact-text h3{
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665
+}
+.contact-text img{
+    width: 100%;
+}
+.contact-infomap{
+    display: flex;
+}
+.contact-info{
+    padding-top: 75px;
+}
+.contact-info h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.contact-info p{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.contact-map{
+    margin-left: 100px;
+    padding-top: 75px;
+}
+footer{
+    height: 430px;
+    margin-top: 80px;
+}
+.footer-logo{
+    display: flex;
+    align-items: flex-start;
+}
+.footer-logo h2{
+    margin-left: 25px;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-content{
+    padding-top: 75px;
+    display: flex;
+}
+.footer-nav{
+    margin-top: 12px;
+    display: flex;
+    margin-left: 145px;
+}
+.footer-nav a{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer-nav1{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav2{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    position: absolute;
+    margin-left: 1144px;
+    margin-top: 87px;
+    
+}
+.footer-bottom-line{
+    
+    margin-top: 50px;
+}
+.footer-bottom-line img{
+    width: 1440px;
+}
+.bottom-footer{
+    margin-top: 50px;
+
+}
+.bottom-content span,a{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.bottom-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
